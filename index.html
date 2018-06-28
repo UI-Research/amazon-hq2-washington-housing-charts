@@ -78,27 +78,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- START HEADER -->
 <div id="header-pinned" class="no-touch">
    <a target="_blank" href="http://www.urban.org" title="Home" rel="home" class="site-logo"></a>
-<div class="title"><span class="feature-link"><a href="http://www.urban.org/features" class="title-linkback" alt="Urban Institute logo">Features</a> <span>: :</span> </span><a href="index.html" class="title-linkback">Nine Charts about Wealth Inequality in America (Updated)</a>
+<div class="title"><span class="feature-link"><a href="https://greaterdc.urban.org/" class="title-linkback" alt="Urban Institute logo">GREATER DC</a>
 </div>
-<div class="share-icons">
-    <div class="shareThisP">
-        <span onclick="toggle_visibility('shareBox');">
+    <div class="share-icons english">
+        <div class="shareThisP">
+            <span onclick="toggle_visibility('shareBox');">
                 <div class="shareThisB"></div>
             </span>
-        <div class="shareThisW" id="shareBox">
+            <div class="shareThisW" id="shareBox">
+              <div class="addthis_toolbox addthis_default_style  "addthis:title="" addthis:url="">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//urbn.is/cdf" target="_blank" class="addthis_button_facebook at300b" title="Facebook" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Share on facebook</span></span></a>
+               <a href="https://twitter.com/intent/tweet?text=Community%20Development%20Financial%20Flows%3A%20How%20US%20Counties%20Compare%20(via%20%40urbaninstitute)%20https%3A%2F%2Furbn.is%2Fcdf" target="_blank" class="addthis_button_twitter at300b" title="Tweet" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-twitter" style="background-color: rgb(44, 168, 210);"><span class="at_a11y">Share on twitter</span></span></a>
+               <a href="mailto:%20?Subject=New interactive from the Urban Institute &amp;Body=Hi! I thought you'd be interested in this new interactive from the Urban Institute: “Community Development Financial Flows: How US Counties Compare” http://urbn.is/cdf" target="_blank" class="addthis_button_email at300b" target="_blank" title="Email" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-email" style="background-color: rgb(115, 138, 141);"><span class="at_a11y">Share on email</span></span></a>
 
-            <div class="addthis_toolbox addthis_default_style  "addthis:title="" addthis:url="">
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//urbn.is/wealthcharts" target="_blank" class="addthis_button_facebook at300b" title="Facebook" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Share on facebook</span></span></a>
-
-                <a href="http://twitter.com/intent/tweet?text=9%20charts%20about%20wealth%20inequality%20in%20America%20(with%20updated%20data)%3A%20http%3A%2F%2Furbn.is%2Fwealthcharts%20(via%20%40urbaninstitute)" target="_blank" class="addthis_button_twitter at300b" title="Tweet" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-twitter" style="background-color: rgb(44, 168, 210);"><span class="at_a11y">Share on twitter</span></span></a>
-
-                <a href="mailto:?subject=Updated%20feature%20from%20the%20Urban%20Institute&body=Hi!%20I%20thought%20you%27d%20be%20interested%20in%20this%20updated%20feature%20from%20the%20Urban%20Institute%3A%20%E2%80%9CNine%20Charts%20about%20Wealth%20Inequality%20in%20America%E2%80%9D%20http%3A%2F%2Furbn.is%2Fwealthcharts%20" target="_blank" title="Email" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-email" style="background-color: rgb(115, 138, 141);"><span class="at_a11y">Share on email</span></span></a>
-                <div class="atclear"></div>
+                <div class="atclear">
+                </div>
+              </div>
             </div>
-
         </div>
     </div>
-</div>
 </div>
 <div class="headerimage" id="heroimage">
   <div class="wrapper headerwrapper">
@@ -125,41 +123,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- TEST -->
-            <h1><span class="number">1 </span>Wealth inequality is growing</h1> 
+            <h1>Wealth inequality is growing</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="wealthTime" class="chart"></div>
-                    <div id="time-series-btns" class="btn-group clearfix">
-                        <button id="button-1963">1963</button>
-                        <button id="button-1983">1983</button>
-                        <button id="button-1989">1989</button>
-                        <button id="button-1992">1992</button>
-                        <button id="button-1995">1995</button>
-                        <button id="button-1998">1998</button>
-                        <button id="button-2001">2001</button>
-                        <button id="button-2004">2004</button>
-                        <button id="button-2007">2007</button>
-                        <button id="button-2010">2010</button>
-                        <button id="button-2013">2013</button>
-                        <button id="button-2016" class="active">2016</button>
-                    </div>
-
-                    <div class="static-chart">
-                        <img src="img/WealthPercentiles.jpg" />
-                    </div>
-
-
-
-                    <div class="btn-group clearfix">
-                        <button id="button-time" class="btn autocompare">Animate</button>
-
-                        <button class="btn dl save-chart custom" data-filenames='["WealthPercentiles","WealthPercentiles"]' data-headers='["Animation","Static chart"]'>Save chart</button>
-                        <a href="data/WealthDistribution.xlsx">
-                            <button id="save1" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Survey of Financial Characteristics of Consumers 1962 (December 31), Survey of Changes in Family Finances 1963, and Survey of Consumer Finances 1983&ndash;2016.</p>
-                    <p class="chart-notes"><b>Notes:</b>  2016 dollars. No comparable data are available between 1963 and 1983.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -188,24 +155,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!--  2 -->
-            <h1> <span class="number">2 </span> One reason for rising wealth inequality is income inequality </h1> 
+            <h1>One reason for rising wealth inequality is income inequality </h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="percentileFamilyIncome" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/IncomeDeciles.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-
-                        <button class="btn dl save-chart single" data-filename="IncomeDeciles">Save chart</button>
-                        <a href="data/IncomeDistribution.xlsx">
-                            <button id="save2" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-
-                    <p class="chart-notes"><b>Sources:</b> Karen Smith, Urban Institute's tabulations from the Current Population Survey 1963&ndash;2017.</p>
-                    <p class="chart-notes"><b>Notes:</b> 2016 dollars. Income here is measured as private income (e.g., earnings and dividends) plus cash government benefits. <a target = "_blank" href = "https://www.urban.org/urban-wire/addressing-income-inequality-first-requires-knowing-what-were-measuring">Income differences narrow</a> when all taxes and transfers&mdash;such as health insurance and in-kind government benefits&mdash;are included, but private wealth does not change.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -222,31 +175,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!--  3 -->
-            <h1> <span class="number">3 </span> Racial and ethnic wealth disparities persist</h1> 
+            <h1>Racial and ethnic wealth disparities persist</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="race-wealth-mean" class="chart show"></div>
-                    <div id="race-wealth-median" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/WealthByRace-avg.jpg" />
-                    </div>
-                    <div class="static-chart">
-                        <img src="img/WealthByRace-med.jpg" />
-                    </div>
-
-
-                    <div class="btn-group clearfix">
-                        <button id="racewealth" class="btn autocompare">Show Median</button>
-
-                        <button class="btn dl save-chart double" data-filenames='["WealthByRace-avg","WealthByRace-med"]' data-headers='["Average","Median"]'>Save chart</button>
-                        <a href="data/WealthbyRace.xlsx">
-                            <button id="save3" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes caption">Median wealth by race and ethnicity is lower than average wealth, but the trends stay the same. Both measures are important because average wealth indicates how a group is prospering as a whole relative to other groups, while median wealth shows how the &ldquo;typical&rdquo; family is doing.</p>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Survey of Financial Characteristics of Consumers 1962 (December 31), Survey of Changes in Family Finances 1963, and Survey of Consumer Finances 1983&ndash;2016.</p>
-                    <p class="chart-notes"><b>Notes:</b> 2016 dollars. No comparable data are available between 1963 and 1983. Black/Hispanic distinction within nonwhite population available only in 1983 and later.</p>
-
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -263,26 +195,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!--  4 -->
-            <h1> <span class="number">4 </span> The racial wealth gap grows sharply with age</h1> 
+            <h1>The racial wealth gap grows sharply with age</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="racial-wealth-gap-mean" class="chart show"></div>
-                    <div id="racial-wealth-gap-median" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/WealthRaceOverLifetime-avg.jpg" />
-                    </div>
-                    <div class="static-chart">
-                        <img src="img/WealthRaceOverLifetime-med.jpg" />
-                    </div>
-                    <div class="btn-group clearfix">
-                        <button id="racegap" class="btn autocompare">Show Median</button>
-                        <button class="btn dl save-chart double" data-filenames='["WealthRaceOverLifetime-avg","WealthRaceOverLifetime-med"]' data-headers='["Average","Median"]'>Save chart</button>
-                        <a href="data/WealthbyRaceoverLifetime.xlsx">
-                            <button id="save4" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Survey of Consumer Finances 1983&ndash;2016.</p>
-                    <p class="chart-notes"><b>Notes:</b> 2016 dollars. Hispanic sample size too small to show. Age is defined as the age of the household head. In 2016, these people were ages 65&ndash;73; in 1983, they were ages 32&ndash;40.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -297,25 +213,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- 5 -->
-            <h1> <span class="number">5 </span> Differences in earnings add up over a lifetime and widen the racial and ethnic wealth gap</h1> 
+            <h1>Differences in earnings add up over a lifetime and widen the racial and ethnic wealth gap</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="lifetime-earnings" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/LifetimeEarnings.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-
-                        <button class="btn dl save-chart single" data-filename="LifetimeEarnings">Save chart</button>
-                        <a href="data/LifetimeEarnings.xlsx">
-                            <button id="save5" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-
-                    <p class="chart-notes"><b>Source:</b> Melissa Favreault, Urban Institute's tabulations from the 2008 Survey of Income and Program Participation matched to Summary Earnings Records through 2012.
-                    </p>
-                    <p class="chart-notes"><b>Notes:</b> 2015 dollars. These people are ages 58&ndash;62 in 2012. Excludes people outside US for more than 10 years of adulthood; this is especially important for Hispanics, who are more likely foreign born.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -333,23 +234,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- 6 -->
-            <h1><span class="number">6 </span> Black and Hispanic families lag behind on major wealth-building measures, like homeownership</h1> 
+            <h1>Black and Hispanic families lag behind on major wealth-building measures, like homeownership</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="homeownership-race" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/Homeownership.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-
-                        <button class="btn dl save-chart single" data-filename="Homeownership">Save chart</button>
-                        <a href="data/Homeownership.xlsx">
-                            <button id="save6" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Current Population Survey 1976&ndash;2017. 1976&ndash;2014 values from Census Historical Household Surveys, Table HH-5. 2015&ndash;16 values from Census Annual Statistics 2016, Table 22.</p>
-                    <p class = "chart-notes"><b>Note:</b> White homeownership rate includes Hispanic whites. The 2016 homeownership rate for non-Hispanic whites is 72 percent.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -371,25 +259,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- 7 -->
-            <h1> <span class="number">7 </span> Black and Hispanic families have less in liquid retirement savings</h1> 
+            <h1>Black and Hispanic families have less in liquid retirement savings</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="avg-retirement" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/Retirement.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-
-                        <button class="btn dl save-chart single" data-filename="Retirement">Save chart</button>
-                        <a href="data/Retirement.xlsx">
-                            <button id="save7" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Survey of Consumer Finances 1989&ndash;2016.
-                    </p>
-                    <p class="chart-notes"><b>
-    Notes:</b> 2016 dollars. Liquid retirement savings include dollars in accounts such as 401(k), 403(b), and IRAs. Median liquid retirement savings for black and Hispanic families were zero from 1989 to 2013. Median liquid retirement savings for whites were zero through the mid-1990s, about $1,500 in 1998, and $10,000 in 2016.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -411,29 +284,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- 8 -->
-            <h1><span class="number">8 </span> Black families carry more student loan debt than white families</h1> 
+            <h1>Black families carry more student loan debt than white families</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="avg-student-debt" class="chart show"></div>
-                    <div id="share-families-debt" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/StudentLoans-avg.jpg" />
-                    </div>
-                    <div class="static-chart">
-                        <img src="img/StudentLoans-share.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-                        <button id="race-student" class="btn autocompare">Show Share with Student Loan debt</button>
-
-                        <button class="btn dl save-chart double" data-filenames='["StudentLoans-avg","StudentLoans-share"]' data-headers='["Average","Share"]'>Save chart</button>
-                        <a href="data/StudentLoans.xlsx">
-                            <button id="save8" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Urban Institute calculations from Survey of Consumer Finances 1989&ndash;2016.
-                    </p>
-                    <p class="chart-notes"><b>Note<span id = "hideChartEightMore">s</span>:</b> <span id = "hideChartEight">2016 dollars. </span>Age is defined as the age of the household head.</p>
+                    <img src = "img/chartImg.png"/>
                 </div>
 
 
@@ -456,25 +310,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <hr/>
         <div class="main wrapper clearfix">
             <!-- 9 -->
-            <h1><span class="number">9 </span> Federal policies fail to promote asset building by lower-income families</h1> 
+            <h1>Federal policies fail to promote asset building by lower-income families</h1> 
             <aside>
                 <div class="aside-content">
-                    <div id="federal-subsidies" class="chart"></div>
-                    <div class="static-chart">
-                        <img src="img/AssetSubsidies.jpg" />
-                    </div>
-
-                    <div class="btn-group clearfix">
-
-                        <button class="btn dl save-chart single" data-filename="AssetSubsidies">Save chart</button>
-                        <a href="data/AssetSubsidies.xlsx">
-                            <button id="save9" class="btn dl data">Data</button>
-                        </a>
-                    </div>
-                    <p class="chart-notes"><b>Source:</b> Updated estimates from <a href="https://www.urban.org/research/publication/who-benefits-asset-building-tax-subsidies" target="_blank">Steuerle et al. (2014).</a>
-                    </p>
-                    <p class="chart-notes"><b>Note:</b> &ldquo;Income&rdquo; refers to the Tax Policy Center&rsquo;s &ldquo;expanded cash income&rdquo; measure, which is described in <a href = "http://www.taxpolicycenter.org/publications/measuring-income-distributional-analysis" target = "_blank">Rosenberg (2013).</a></a>
-                    </p>
+                    <img src = "img/chartImg.png"/>
                 </div>
             </aside>
             <article>
@@ -603,11 +442,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-        <script src="https://code.highcharts.com/highcharts.js"></script>
+<!--         <script src="https://code.highcharts.com/highcharts.js"></script>
         <script src="https://code.highcharts.com/modules/exporting.js"></script>
         <script src="js/script.js"></script>
         <script src="js/vendor/d3.min.js"></script>
-        <script src="js/popup.js"></script>
+        <script src="js/popup.js"></script> -->
         <script src="js/header.js"></script>
 
 

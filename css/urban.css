@@ -37,7 +37,7 @@ table {
 
 
 a{
- color:#1696d2;
+ color:#008BB0;
  text-decoration: none;
    
 }
@@ -335,7 +335,7 @@ h4 {
   color: #333 !important;
 }
 .footerButton:hover{
-  background: #fdbf11;
+  background: #FCB64B;
   color: #fff !important;
 }
 .footerButton.researchButton{
@@ -457,7 +457,7 @@ footer h3, footer h4{
 
 /*browser windows smaller than 850px*/
 @media (max-width: 1100px) {
-  .wrapper {width:100%; padding-top:100px;}
+  .wrapper {width: calc(100% - 40px); padding-top:100px;}
   .content {width:auto; padding:0px 30px}
   .container {width:auto; padding:0px 30px; margin-bottom: 40px;}
   ul {margin-left: 15px;}
