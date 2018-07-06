@@ -213,7 +213,7 @@ body {
 }
 .header-container,
 .main aside {
-    background: #f9f9f9;
+    background: #ffffff;
 }
 
 .author {
@@ -221,7 +221,8 @@ body {
     margin-top: 0px;
 }
 .aside-content {
-    margin: 20px;
+    margin: 30px;
+    margin-top: -5px;
 }
 .aside-content img{
     width: 100%;
@@ -240,14 +241,14 @@ body {
     font: 400 30px/36px Lato, sans-serif;
 }
 .intro-text {
-    font: 400 20px/26px Lato, sans-serif;
+    /*font: 400 16px Lato, sans-serif;*/
     width: calc(100% - 40px);
 }
 .closing-text {
     font: 400 16px/24px Lato, sans-serif;
 }
 .main-image {
-    background-image: url("../img/AP173355447669.jpg");
+    background-image: url("../img/header.jpeg");
     background-size: cover;
     background-position: bottom;
     height: 500px;
