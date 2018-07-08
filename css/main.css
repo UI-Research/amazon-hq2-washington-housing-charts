@@ -680,3 +680,13 @@ footer p{
     margin-top: 60px;
     font-style: italic;
 }
+#viewGithub{
+    margin-top: 20px;
+}
+.sectionFootNote{
+    font-size: 11px;
+    font-style: italic;
+}
+.main.top p{
+    padding-right: 60px;
+}

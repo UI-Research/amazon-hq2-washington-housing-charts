@@ -385,6 +385,11 @@ footer h3, footer h4{
         top: 25px;
     }
 }
+@media (max-width: 980px){
+  .title-text br{
+    display: none;
+  }
+}
 @media (max-width: 450px){
   .footerButton.researchButton {
       margin-left: 0px;
