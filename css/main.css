@@ -248,7 +248,7 @@ body {
     font: 400 16px/24px Lato, sans-serif;
 }
 .main-image {
-    background-image: url("../img/header.jpeg");
+    background-image: url("../img/header.jpg");
     background-size: cover;
     background-position: bottom;
     height: 500px;
@@ -507,13 +507,13 @@ nav a:visited {
         margin-right: auto;
     }
     .chart{
-     display:none;   
+     display:none;
     }
     .show{
      display: none;
     }
     .chart show{
-     display: none;   
+     display: none;
     }
 
     .hide {
@@ -526,7 +526,7 @@ nav a:visited {
      display: none;
     }
     #logo{
-     display:none;   
+     display:none;
     }
     .btn-group{
      display: none;
