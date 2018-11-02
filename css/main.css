@@ -148,6 +148,11 @@ body {
 .main article p {
     margin-top: 0;
 }
+.correction {
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+}
 .main h1 {
     font-size: 2em;
     font-weight: 400;
